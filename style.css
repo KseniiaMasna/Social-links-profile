@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;  
+    text-align: center;      
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    font-family: "Inter", serif;
+    font-size: 0.875rem;
+    font-weight: 300;
+}
+
+.social-links-profile{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-items: center;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 1rem;
+    padding: 2.5rem;
+    width: 25rem;
+}
+
+.profile-photo img{
+    max-width: 5rem;
+    max-height: 5rem;
+    border-radius: 50%;
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.social-links button{
+    background-color: hsl(0, 0%, 20%);   
+    font-weight: 700;
+    width: 100%;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: white;
+    font-size: 0.75rem;
+
+}
+.social-links button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    
+    
+    
+}
+
+footer{
+    display: none;
+}
+
+/* TYpography */
+.location {
+    font-weight: 700;
+    color: hsl(75, 94%, 57%);;
+}
+
+h2{
+    font-weight: 600;
+}
+
+p::before {
+    content: '"'; /* Opening quote */
+}
+
+p::after {
+    content: '"'; /* Closing quote */
+}
+
+
